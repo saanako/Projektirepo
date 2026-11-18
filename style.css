@@ -1,0 +1,94 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: smaller;
+    line-height: 1.5rem;
+    background-color: black;
+    background-image: url(img/violetsatin.gif)
+}
+
+* {
+    scrollbar-gutter: stable;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    font-size: large;
+}
+
+/* LINK HOVER BOX (EXCLUDE IMAGES)*/
+a:hover:not(:has(img)) {
+    color: black;
+    background-color: white;
+}
+
+a {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+nav a {
+    line-height: normal;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.navbarbuttons {
+    @media (max-width: 530px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+aside a {
+    line-height: normal;
+    width: fit-content;
+    margin-block: 0.5rem;
+    text-decoration: none;
+}
+
+.asideboxbuttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+main {
+    width: 50rem;
+}
+
+.box {
+    background-color: black;
+    padding: 2rem;
+    border: 0.1rem solid white;
+    margin: 2rem;
+}
+
+.asidebox {
+    width: fit-content;
+}
+
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+footer {
+    padding: 2rem;
+}
+
+footer img {
+    margin-inline: 0.25rem;
+}
