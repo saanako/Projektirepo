@@ -4,7 +4,7 @@ body {
     font-size: smaller;
     line-height: 1.5rem;
     background-color: black;
-    background-image: url(img/violetsatin.gif)
+    background-image: url(img/water01.jpg)
 }
 
 * {
@@ -39,13 +39,6 @@ nav a {
     text-decoration: none;
 }
 
-.navbarbuttons {
-    @media (max-width: 530px) {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 aside a {
     line-height: normal;
     width: fit-content;
@@ -57,8 +50,6 @@ aside a {
     display: flex;
     flex-direction: column;
 }
-
-
 
 main {
     width: 50rem;
@@ -75,15 +66,11 @@ main {
     width: fit-content;
 }
 
-
-
 .flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 footer {
     padding: 2rem;
